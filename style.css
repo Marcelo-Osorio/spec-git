@@ -3,3 +3,12 @@
     margin: 0;
     padding: 0;
 }
+
+h3 {
+    color : #7aa;
+    background-color: #cfcfcf;
+}
+
+.header {
+    background-color: #4c7;
+}
