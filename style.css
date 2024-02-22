@@ -16,3 +16,7 @@ h3 {
 .main {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+p {
+    user-select: none;
+}
