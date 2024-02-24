@@ -10,3 +10,6 @@ Promise.all(new Promise((res,rej) => {
         res('culacanes');
     }, 3000);
 }))
+
+let worker = new Worker('sw.js');
+worker.addEventListener('message',e => console.log(e))
